@@ -1,0 +1,158 @@
+/* 
+multiple selectors
+selector1, selector2 {
+
+}
+hierarchal selectors
+selector1 selector2{
+
+}
+combined selectors
+selector1.selector2{
+
+}
+*/
+body{
+   font-family: 'Montserrot'; 
+}
+#title{
+    color:#fff;
+    background-color: #ff4c68;
+}
+.fnt{
+    margin:20% 0;
+    font-family: 'Montserrot-SemiBold',sans-serif;
+    Line-height: 1.5;
+    font-size: 3 rem;
+    font-weight: 900;
+}
+.container-fluid{
+    padding: 3% 15%;
+    
+}
+/* Navigation Bar */
+.navbar{
+    padding-bottom: 4.5rem;
+}
+.navbar-brand{
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+    
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-family:'Montserrot-light';
+    size:1.2 rem;
+}
+.download-button{
+    margin:5% 3% 5% 0;
+}
+.title-image{
+    width:25%;
+    transform:rotate(25deg);
+    position:absolute;
+    z-index:0;
+}
+@media (max-width:1028px){
+    #title{
+        text-align:center;
+    }
+    .title-image{
+        transform:rotate(0deg);
+        position:static;
+    }
+}
+/* FEATURES SECTION */
+
+#features{
+    padding:7% 15%;
+    background-color: #fff;
+    position:relative;
+    z-index:1;
+}
+h3{
+    font-family:'Montserrat-bold';
+    font-weight:900;
+    font-size:1.5 rem;
+}
+p{
+    text-align:center;
+    color:grey;
+}
+.feature-box{
+    text-align:center;
+    padding:5%;
+}
+.icon{
+    color:firebrick
+}
+.icon:hover{
+    color:#ff4c68;
+}
+
+/* TESTIMONIAL SECTION */
+#testimonials{
+    
+    background-color: #af3548;
+    color:#fff;
+    line-height:1.5;
+    font-family:'Montserrot-bold';
+    font-weight:600;
+    text-align:center;
+}
+.carousel-item{
+    padding:7% 15%;
+}
+.testimonial-image{
+    width:10%;
+    border-radius:100%;
+    margin:20px;
+}
+#press{
+    /* padding:5%; */
+    /* margin:5%; */
+    background-color: #af3548;
+    padding-bottom: 3%;
+    text-align: center;
+}
+.press-logo{
+    width:15%;
+    margin:20px 20px 20px 50px;
+}
+
+
+/* PRICING SECTION */
+#pricing{
+    text-align:center;
+    padding:3% 4%;
+}
+.pricing-card{
+    text-align:center;
+    padding:3%;
+
+}
+h2{
+    font-family:'Montserrot-bold';
+    font-weight:600;
+    margin:3%;
+}
+
+/* CALL TO ACTION SECTION */
+#cta{
+    padding:5%;
+    background-color: #ff4c68;
+    color:#fff;
+    text-align: center;
+}
+
+/* FOOTER SECTION */
+#footer{
+    text-align: center;
+    padding:5%;
+}
+.f-icon{
+    padding:1%;
+}
